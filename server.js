@@ -4,7 +4,7 @@ const path = require("path");
 
 // Import express-handlebars
 const exphbs = require("express-handlebars");
-
+const sequelize = require('./config/connection');
 const routes = require("./controllers");
 
 // Sets up the Express App
@@ -30,6 +30,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(routes);
 
 // Starts the server to begin listening
-app.listen(PORT, () => {
-  console.log("Server listening on: http://localhost:" + PORT);
+//MAKE SURE YOU CREATE A DB IN MYSQL WOKBENCH AND ENTERED YOUR INFO IN THE .ENV FILE
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log('Now listening'));
 });
