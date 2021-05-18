@@ -1,23 +1,26 @@
-const seedAura = require('./aura-seed');
-const seedColor = require('./color-seed');
-const seedEmotions = require('./emotions-seed');
-
 const sequelize = require('../config/connection');
+const { User, Color } = require('../models');
 
-const seedAll = async () => {
+const userData = require('./userData.json');
+const colorData = require('./color-seed.json');
+
+const seedDatabase = async () => {
   await sequelize.sync({ force: true });
-  console.log('\n----- DATABASE SYNCED -----\n');
-  await seedAura();
-  console.log('\n----- AURA SEEDED -----\n');
 
-  await seedColor();
-  console.log('\n----- COLOR SEEDED -----\n');
+  const users = await User.bulkCreate(userData, {
+    individualHooks: true,
+    returning: true,
+  });
 
-  await seedEmotions();
-  console.log('\n----- EMOTIONS SEEDED -----\n');
-
+  for (const colors of colorData) {
+    await Color.create({
+      ...colors,
+      user_id: users[Math.floor(Math.random() * users.length)].id,
+    });
+  }
 
   process.exit(0);
 };
 
-seedAll();
+seedDatabase();
+

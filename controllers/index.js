@@ -4,19 +4,21 @@ const router = require('express').Router();
 //MVC activity 13 the line above will take you to a file called home-routes stored in the controllers folder
 // router.use('/', homeRoutes);
 //runs whatever code is in homeRoutes
+const apiRoutes = require('./api');
+const homeRoutes = require('./homeRoutes');
 
-
-router.get('/', async (req, res) => {
+// router.get('/', async (req, res) => {
     // Add a comment describing the purpose of the render method
     // This method is rendering the 'all' Handlebars.js template. This is how we connect each route to the correct template.
     //the code below specific method is speaking to handlebars
-    res.render('homepage');
-  });
+  //   res.render('homepage');
+  // });
+router.use('/', homeRoutes);
+router.use('/api', apiRoutes);
 
-
-router.get('/cart', async (req, res) => {
-  res.render('cart');
-});
+// router.get('/cart', async (req, res) => {
+//   res.render('cart');
+// });
 
 
 module.exports = router;
