@@ -1,0 +1,40 @@
+header{
+    background: url(./img/rnbw_wtclr.png);
+    background-size: cover;
+    background-position: center;
+  }
+    /* @media screen and (max-width: 670px){
+     header{
+      min-height: 500px;
+    }
+  } */
+  .section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+  /* .tabs .indicator{
+    background-color: #1a237e;
+  } */
+  /* .tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+  } */
+  a.brand-logo{
+      font-size: 1.5rem !important;
+      color: rgb(20, 20, 20);
+  }
+  .sidenav-trigger{
+    color: rgb(20, 20, 20);
+  }
+  .sidenav{
+    background: url(./img/rnbw_wtclr.png);
+    background-size: cover;
+  }
+  body{
+    background-color:azure;
+    /* background-image: url(./img/rnbw_wtclr.png);
+    background-size:contain;
+    background-position: center; */
+  }
+  h2{
+    font-size: 2.5rem;
+  }
