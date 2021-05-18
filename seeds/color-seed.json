@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Red",
+    "price": "14.99",
+    "stock": "15"
+  },
+  {
+    "name": "Orange",
+    "price": "14.99",
+    "stock": "25"
+  },
+  {
+    "name": "Yellow",
+    "price": "14.99",
+    "stock": "12"
+  },
+  {
+    "name": "Green",
+    "price": "14.99",
+    "stock": "50"
+  },
+  {
+    "name": "Blue",
+    "price": "14.99",
+    "stock": "22"
+  },
+  {
+    "name": "Purple",
+    "price": "14.99",
+    "stock": "22"
+  },
+  {
+    "name": "Violet",
+    "price": "14.99",
+    "stock": "22"
+  }
+]
