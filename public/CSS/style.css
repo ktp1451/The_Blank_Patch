@@ -1,38 +1,35 @@
 header{
-    background: url(/public/img/rnbw_wtclr.png);
+    background: url(../img/rnbw_wtclr.png);
     background-size: cover;
     background-position: center;
+    color: #141414 !important;
   }
-    /* @media screen and (max-width: 670px){
-    header{
-    min-height: 500px;
-    }
-} */
-.section{
-    padding-top: 4vw;
-    padding-bottom: 4vw;
+li>a{
+    padding-top: 5%;
+    color: #141414 !important;
 }
-/* .tabs .indicator{
-    background-color: #1a237e;
-} */
-/* .tabs .tab a:focus, .tabs .tab a:focus.active{
-    background: transparent;
-} */
+
+.nav-wrapper{
+    height: 10% !important;
+}
 a.brand-logo{
-    font-size: 1.5rem !important;
+    padding-top: 1%;
+    font-size: 18px !important;
     color: #141414;
 }
 .sidenav-trigger{
     color: #141414;
 }
 .sidenav{
-    background: url(/public/img/rnbw_wtclr.png);
+    background: url(../img/rnbw_wtclr.png);
     background-size: cover;
 }
 .hero-image{
     display:flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .scrollspy{
     padding-right: 12px !important;
@@ -51,17 +48,22 @@ h2{
 a:link{
     color: #141414 !important;
 }
+a:hover {
+    color: hotpink !important;
+  }
 p{
     font-size: .95rem !important;
     /* margin: auto !important;
     padding: auto !important; */
 }
-.tab{
+.tabs.indicator{
+    padding-top: 3% !important;
     color: #141414 !important;
     font-size: .75rem !important;
+    /* background-color: #141414 !important; */
 }
 footer{
-    background-image: url(/public/img/rnbw_wtclr.png);
+    background-image: url(../img/rnbw_wtclr.png);
     background-size: cover;
     background-position: center;
     color: #141414 !important;
@@ -71,4 +73,11 @@ footer{
 }
 .copyright{
     color: #141414 !important;
+}
+
+
+@media screen and (min-width: 601px) {
+    div.example {
+        font-size: 80px;
+    }
 }
