@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { Color, User } = require('../models');
+const colorRoutes = require('./api/colorRoutes');
 
 router.get('/', async (req, res) => {
   try {
