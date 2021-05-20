@@ -39,7 +39,7 @@ router.get('/shopping', async (req, res) => {
 router.get('/shopping/:id', async (req, res) => {
   try {
     // Get all Colors(products) and JOIN with user data
-    const colorData = await Color.findAll({
+    const colorData = await Color.findByPk({
       include: [
         {
           model: User,
