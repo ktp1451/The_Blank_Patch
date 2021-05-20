@@ -43,9 +43,7 @@ h2{
 a:link{
     color: #141414 !important;
 }
-a:hover {
-    color: hotpink !important;
-  }
+
 p{
     font-size: .95rem !important;
     /* margin: auto !important;
