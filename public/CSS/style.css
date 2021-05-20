@@ -8,22 +8,13 @@ li>a{
     padding-top: 5%;
     color: #141414 !important;
 }
-/* @media screen and (max-width: 600px) {
-    div.example {
-      font-size: 30px !important;
-    }
-  }
-@media screen and (min-width: 601px) {
-    div.example {
-        font-size: 80px;
-    }
-} */
+
 .nav-wrapper{
     height: 10% !important;
 }
 a.brand-logo{
     padding-top: 1%;
-    font-size: 5rem !important;
+    font-size: 18px !important;
     color: #141414;
 }
 .sidenav-trigger{
@@ -82,4 +73,11 @@ footer{
 }
 .copyright{
     color: #141414 !important;
+}
+
+
+@media screen and (min-width: 601px) {
+    div.example {
+        font-size: 80px;
+    }
 }
