@@ -5,25 +5,25 @@ header{
     color: #141414 !important;
   }
 li>a{
+    padding-top: 5%;
     color: #141414 !important;
 }
-    /* @media screen and (max-width: 670px){
-    header{
-    min-height: 500px;
+/* @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px !important;
+    }
+  }
+@media screen and (min-width: 601px) {
+    div.example {
+        font-size: 80px;
     }
 } */
-.section{
-    padding-top: 4vw;
-    padding-bottom: 4vw;
+.nav-wrapper{
+    height: 10% !important;
 }
-/* .tabs .indicator{
-    background-color: #1a237e;
-} */
-/* .tabs .tab a:focus, .tabs .tab a:focus.active{
-    background: transparent;
-} */
 a.brand-logo{
-    font-size: 1.5rem !important;
+    padding-top: 1%;
+    font-size: 5rem !important;
     color: #141414;
 }
 .sidenav-trigger{
@@ -36,7 +36,9 @@ a.brand-logo{
 .hero-image{
     display:flex;
     justify-content: center;
-    padding-top: 3%;
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .scrollspy{
     padding-right: 12px !important;
@@ -64,6 +66,7 @@ p{
     padding: auto !important; */
 }
 .tabs.indicator{
+    padding-top: 3% !important;
     color: #141414 !important;
     font-size: .75rem !important;
     /* background-color: #141414 !important; */
