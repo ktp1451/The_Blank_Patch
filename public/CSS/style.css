@@ -1,8 +1,12 @@
 header{
-    background: url(/public/img/rnbw_wtclr.png);
+    background: url(../img/rnbw_wtclr.png);
     background-size: cover;
     background-position: center;
+    color: #141414 !important;
   }
+li>a{
+    color: #141414 !important;
+}
     /* @media screen and (max-width: 670px){
     header{
     min-height: 500px;
@@ -26,7 +30,7 @@ a.brand-logo{
     color: #141414;
 }
 .sidenav{
-    background: url(/public/img/rnbw_wtclr.png);
+    background: url(../img/rnbw_wtclr.png);
     background-size: cover;
 }
 .hero-image{
@@ -51,6 +55,9 @@ h2{
 a:link{
     color: #141414 !important;
 }
+a:hover {
+    color: hotpink !important;
+  }
 p{
     font-size: .95rem !important;
     /* margin: auto !important;
@@ -62,7 +69,7 @@ p{
     /* background-color: #141414 !important; */
 }
 footer{
-    background-image: url(/public/img/rnbw_wtclr.png);
+    background-image: url(../img/rnbw_wtclr.png);
     background-size: cover;
     background-position: center;
     color: #141414 !important;
