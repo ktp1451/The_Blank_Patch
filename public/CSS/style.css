@@ -32,7 +32,7 @@ a.brand-logo{
 .hero-image{
     display:flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 3%;
 }
 .scrollspy{
     padding-right: 12px !important;
@@ -56,9 +56,10 @@ p{
     /* margin: auto !important;
     padding: auto !important; */
 }
-.tab{
+.tabs.indicator{
     color: #141414 !important;
     font-size: .75rem !important;
+    /* background-color: #141414 !important; */
 }
 footer{
     background-image: url(/public/img/rnbw_wtclr.png);
