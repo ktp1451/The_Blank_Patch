@@ -1,9 +1,10 @@
 const router = require('express').Router();
-const { Color, User } = require('../models');
-const colorRoutes = require('./api/colorRoutes');
+const { Color, User, } = require('../models');
+
 
 router.get('/', async (req, res) => {
   try {
+    console.log(req.session)
     res.render('homepage', {  
       loggedIn: req.session.loggedIn 
     });
