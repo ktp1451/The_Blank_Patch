@@ -15,64 +15,49 @@
 </div>
 </div>
 
+<body>
+<div class="container">
+
 <h1>Shopping Cart</h1>
 
-<div class="shopping-cart">
+<!--item-->
+<div class="col s12 m7">
+    <h2 class="header">Red</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="img/red.gif">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>Is said to reflect from your root or physical layer. It may be sensed, perhaps even visible between your tailbone and pelvic bone.</p>
+          <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Quantity</a>
 
-  <div class="column-labels">
-    <label class="product-image">Image</label>
-    <label class="product-details">Product</label>
-    <label class="product-price">Price</label>
-    <label class="product-quantity">Quantity</label>
-    <label class="product-removal">Remove</label>
-    <label class="product-line-price">Total</label>
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">1</a></li>
+    <li><a href="#!">2</a></li>
+    <li><a href="#!">3</a></li>
+    <li><a href="#!">4</a></li>
+    <li><a href="#!">5</a></li>
+  </ul>
+        </div>
+        <div class="clearfix">
+            <div class="price left">$14.99</div>
+        <div class="card-action right">
+          <a href="#"> <i class="material-icons right">remove_shopping_cart</i> Remove from cart</a>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="product">
-    <div class="card-image">
-           <img src="img/red.gif" alt="" class="img-responsive">
-    <div class="product-details">
-      <div class="product-title">Red</div>
-      <p class="product-description">Product Description</p>
-    </div>
-    <div class="product-price">14.99</div>
-    <div class="product-quantity">
-      <input type="number" value="2" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">25.98</div>
-  </div>
-
-  <div class="product">
-     <div class="card-image">
-           <img src="img/green.gif" alt="" class="img-responsive">
-    <div class="product-details">
-      <div class="product-title">Green</div>
-      <p class="product-description">Product Description</p>
-    </div>
-    <div class="product-price">14.99</div>
-    <div class="product-quantity">
-      <input type="number" value="1" min="1">
-    </div>
-    <div class="product-removal">
-      <button class="remove-product">
-        Remove
-      </button>
-    </div>
-    <div class="product-line-price">29.98</div>
-  </div>
-
+<!--total-->
   <div class="totals">
     <div class="totals-item">
       <label>Subtotal</label>
       <div class="totals-value" id="cart-subtotal">29.98</div>
     </div>
     <div class="totals-item">
-      <label>Tax (5%)</label>
+      <label>Tax (2%)</label>
       <div class="totals-value" id="cart-tax">2.47</div>
     </div>
     <div class="totals-item">
@@ -88,3 +73,6 @@
       <button class="checkout">Checkout</button>
 
 </div>
+  </div>
+  </div>
+  </div>
