@@ -1,40 +1,44 @@
 {{!-- if/else statement week 14 mini project middlewear activities in main "handlebars--}}
 
-<div class="signup-box">
-    <div class="container">
-        <h1>Hello!</h1>
-        <h4>We would love to show you all the amazing things our site has to offer!</h4>
-        <h4>We just ask for a few minutes of your time to sign up, or log in</h4>
-        <h4>to fully access our research and our amazing shop.</h4>
-        <h1>Sign Up</h1>
-        <form>
-            <label>Frist Name</label>
-            <input type="text" placeholder="">
-            <label>Last Name</label>
-            <input type="text" placeholder="">
-            <label>Email</label>
-            <input type="email" placeholder="">
-            <label>Password</label>
-            <input type="password" placeholder="">
-            <label>Confirm Password</label>
-            <input type="password" placeholder="">
-        </form>
-        <div class="input-field center">
-            <button class="btn">Submit</button>
-          </div>
-        <p>By clicking the Sign Up button, you agree to our <br>
-        <a href="#">Terms and Conditions</a> and <a href="#">Policy Privacy</a>
-        </p>
-        <h4>Already have an account?</h4>
-        <h1>Login</h1>
-        <form>
-            <label>Email</label>
-            <input type="email" placeholder="">
-            <label>Password</label>
-            <input type="password" placeholder="">
-        </form>  
-        <div class="input-field center">
-            <button class="btn">Submit</button>
-          </div>
-    </div>
+<div class="row justify-space-between-md">
+  <div class="login-card">
+    <h2 class="page-title">Login</h2>
+    <form class="form login-form">
+      <div class="form-group">
+        <label for="email-login">Email:</label>
+        <input class="form-input" type="text" id="email-login" />
+      </div>
+      <div class="form-group">
+        <label for="password-login">Password:</label>
+        <input class="form-input" type="password" id="password-login" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">login</button>
+      </div>
+    </form>
+  </div>
+  <div class="login-card">
+    <h2 class="page-title">Signup</h2>
+    <form class="form signup-form">
+      <div class="form-group">
+        <label for="username-signup">Username:</label>
+        <input class="form-input" type="text" id="username-signup" />
+      </div>
+      <div class="form-group">
+        <label for="email-signup">Email:</label>
+        <input class="form-input" type="text" id="email-signup" />
+      </div>
+      <div class="form-group">
+        <label for="password-signup">Password:</label>
+        <input class="form-input" type="password" id="password-signup" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">signup</button>
+      </div>
+    </form>
+  </div>
 </div>
+
+
+
+<script src="./js/login.js"></script>

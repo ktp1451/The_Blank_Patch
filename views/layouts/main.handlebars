@@ -27,7 +27,11 @@
           <li><a href="cart">Your Cart</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#contact">Contact</a></li>
+           {{#if loggedIn}}
+          <li><a id="logout">Logout</a></li>
+          {{else}}
           <li><a href="login">Login</a></li>
+          {{/if}}
           <li><a href="#" class="tooltipped btn-floating btn-small" data-position="bottom" data-tooltip="Instagram"> 
             <i class="fab fa-instagram"></i>
           </a></li>
@@ -43,7 +47,11 @@
           <li><a href="cart">Your Cart</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#contact">Contact</a></li>
+           {{#if loggedIn}}
+          <li><a id="logout-mobile">Logout</a></li>
+          {{else}}
           <li><a href="login">Login</a></li>
+          {{/if}}
         </ul>
       </div>
     </nav>
@@ -121,5 +129,6 @@
 
     });
   </script>
+  <script src="./js/logout.js"></script>
 </body>
 </html>
