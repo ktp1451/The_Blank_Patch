@@ -5,15 +5,10 @@ header{
     color: #141414 !important;
   }
 li>a{
-    padding-top: 5%;
     color: #141414 !important;
 }
 
-.nav-wrapper{
-    height: 10% !important;
-}
 a.brand-logo{
-    padding-top: 1%;
     font-size: 18px !important;
     color: #141414;
 }
@@ -30,16 +25,16 @@ a.brand-logo{
     padding-top: 6%;
     padding-left: 4%;
     padding-right: 4%;
+    padding-bottom: 6%;
 }
 .scrollspy{
     padding-right: 12px !important;
 }    
 
 body{
-    background-color:azure;
-    /* background-image: url(./img/rnbw_wtclr.png);
-    background-size:contain;
-    background-position: center; */
+    background-image: url(../img/white-textured-background.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 h2{
     color: #141414 !important;
@@ -48,19 +43,16 @@ h2{
 a:link{
     color: #141414 !important;
 }
-a:hover {
-    color: hotpink !important;
-  }
+
 p{
     font-size: .95rem !important;
     /* margin: auto !important;
     padding: auto !important; */
 }
 .tabs.indicator{
-    padding-top: 3% !important;
+    /* padding-top: 3% !important; */
     color: #141414 !important;
     font-size: .75rem !important;
-    /* background-color: #141414 !important; */
 }
 footer{
     background-image: url(../img/rnbw_wtclr.png);
@@ -75,13 +67,13 @@ footer{
     color: #141414 !important;
 }
 
-
 @media screen and (min-width: 601px) {
     div.example {
         font-size: 80px;
     }
 }
 
+/*shopping page*/
 .card img {
     max-height: 150px;
 }
@@ -109,3 +101,5 @@ footer{
 .clearfix {
  zoom: 1; /* ie 6/7 */
 }
+
+/*cart*/
