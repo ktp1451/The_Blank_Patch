@@ -72,3 +72,34 @@ footer{
         font-size: 80px;
     }
 }
+
+/*shopping page*/
+.card img {
+    max-height: 150px;
+}
+
+.card .description {
+    color:#7f7f7f
+
+}
+
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.clearfix:before,
+.clearfix:after {
+ content: "";
+ display: table;
+ }
+
+.clearfix:after {
+ clear: both;
+ }
+
+.clearfix {
+ zoom: 1; /* ie 6/7 */
+}
+
+/*cart*/
