@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./CSS/style.css">
   <title>The Blank Patch</title>
 </head>
@@ -24,7 +25,7 @@
         </a>
         <ul class="right hide-on-med-and-down">
           <li><a href="shopping">Our Shop</a></li>
-          <li><a href="cart">Your Cart<span> 0</span></a></li>
+          <li class="cart"><a href="cart">Your Cart: <span> 0</span></a></li>
           <li><a href="#contact">Contact</a></li>
            {{#if loggedIn}}
           <li><a id="logout">Logout</a></li>
@@ -43,7 +44,7 @@
         </ul>
         <ul class="sidenav" id="mobile-menu">
           <li><a href="shopping">Our Shop</a></li>
-          <li><a href="cart">Your Cart</a></li>
+          <li><a href="cart">Your Cart: </a></li>
           <li><a href="#contact">Contact</a></li>
            {{#if loggedIn}}
           <li><a id="logout-mobile">Logout</a></li>
@@ -127,6 +128,7 @@
 
     });
   </script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   {{#if loggedIn}}
   <script src="./js/logout.js"></script>
   {{/if}}
