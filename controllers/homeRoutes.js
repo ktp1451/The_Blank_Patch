@@ -69,8 +69,7 @@ router.get('/cart', async (req, res) => {
     const colorData = await Color.findAll({
       include: [
         {
-          model: User,
-          attributes: ['username'],
+          model: User
         },
       ],
     });
