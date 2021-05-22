@@ -26,7 +26,9 @@
     <h2 class="header">Red</h2>
     <div class="card horizontal">
       <div class="card-image">
-        <img src="img/red.gif">
+        {{#with image}}
+        <img src="img/{{image.[0].filename}}">
+        {{/with}}
       </div>
       <div class="card-stacked">
         <div class="card-content">
@@ -73,15 +75,8 @@
       
       <button class="checkout">Checkout</button>
 
-</div>
-<<<<<<< HEAD
   </div>
   </div>
   </div>
-<<<<<<< HEAD
-=======
+  </div>
 {{/if}}
->>>>>>> fc268eb6d44743d6c9ab9dbbec45332dda24413b
-=======
-{{/if}}
->>>>>>> 6bffd8fef88836ca6c2b54ab54955fef4c0885e7
