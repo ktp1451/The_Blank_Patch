@@ -18,7 +18,10 @@ deployed on heroku
 https://kvdproject-aura.herokuapp.com/
 
 # Screenshots and Tutorial
-![alt text](https://github.com/xvirix/tech-blog/blob/main/Photo/Image%205-15-21%20at%209.01%20PM.jpg)
+![alt text](https://github.com/ktp1451/Project-2/blob/main/project_pictures/image1.jpg)
+![alt text](https://github.com/ktp1451/Project-2/blob/main/project_pictures/image2.jpg)
+![alt text](https://github.com/ktp1451/Project-2/blob/main/project_pictures/image3.jpg)
+![alt text](https://github.com/ktp1451/Project-2/blob/main/project_pictures/image4.jpg)
 
 
 # Contributing 
@@ -29,4 +32,4 @@ Kate Patterson
 
 
 # Contact Information 
-* Questions? Contact me here: viriortiz32@gmail.com
+* Questions? Contact us here: viriortiz32@gmail.com
