@@ -7,6 +7,8 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const exphbs = require("express-handlebars");
 const sequelize = require('./config/connection');
 const routes = require("./controllers");
+const compression = require('compression');
+
 
 // Sets up the Express App
 const app = express();
@@ -29,7 +31,7 @@ const sess = {
 };
 
 app.use(session(sess));
-
+app.use(compression());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
