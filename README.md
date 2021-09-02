@@ -1,4 +1,4 @@
-# Project 2 Aura Shop
+# The Blank Patch - Aura Shop
 
 # Description
 This is an e-commerse application where we sell auras. People are able to buy auras in case they want to give off a different aura. 
